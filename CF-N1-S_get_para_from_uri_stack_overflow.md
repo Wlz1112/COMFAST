@@ -18,7 +18,7 @@
 - **Vulnerable Function:** `get_para_from_uri` (URI query parameter parsing inside the webmgnt CGI backend).
 - **Vulnerability Point:** Unsafe `output_buf[i++] = *pos++` copy loop with no bounds checking.
 - **Trigger Endpoint:** `GET /cgi-bin/mbox-config?width=A&height=<overlong string>`
-- **Trigger Parameter:** `height` (also accepts `width`).
+- **Trigger Parameter:** `height` .
 - **Authentication Requirement:** **No (unauthenticated)** — a direct GET request is sufficient.
 - **Evidence Level:** VALIDATED
 - **Prerequisites:**
