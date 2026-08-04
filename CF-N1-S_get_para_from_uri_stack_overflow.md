@@ -131,5 +131,5 @@ if __name__ == "__main__":
     target = sys.argv[1]
     exploit(target)
 ```
+<img width="1914" height="861" alt="image" src="https://github.com/user-attachments/assets/ef12b4da-70c9-47a5-9e0e-7210f19b485e" />
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/25400303/1785812202989-ad10a1ae-981a-4b01-89b3-23b931dd223d.png?x-oss-process=image%2Fformat%2Cwebp)
