@@ -37,7 +37,8 @@ Critically, this vulnerability requires **no authentication**: the overflow is t
 
 ### **Vulnerability Code Snippet (Logic Reconstruction)**
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/25400303/1785811871894-a52d6bb9-96ba-46a4-8cee-90f15a8760eb.png?x-oss-process=image%2Fformat%2Cwebp)
+<img width="747" height="918" alt="image" src="https://github.com/user-attachments/assets/1f575f71-ef2f-4d0f-880c-391510aa4158" />
+
 
 ```
 // webmgnt get_para_from_uri logic reconstruction
