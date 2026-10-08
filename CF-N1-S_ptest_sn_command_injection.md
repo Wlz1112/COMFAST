@@ -36,8 +36,8 @@ The core of the vulnerability lies in the complete absence of input validation: 
 Since the command runs under the privileges of the `webmgnt` process, and the service runs as **root**, any injected command executes with root privileges (`uid=0(root)`), granting full Remote Code Execution (RCE) on the router.
 
 **Vulnerability Code Snippet (Logic Reconstruction)**
+<img width="1119" height="834" alt="image" src="https://github.com/user-attachments/assets/659aa603-7b49-4157-bf6f-475ece33323a" />
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/25400303/1785810306691-881ec330-6599-4a11-97f0-45fa113ecffc.png?x-oss-process=image%2Fformat%2Cwebp)
 
 ```
 // webmgnt sub_44AB34 logic reconstruction
@@ -182,4 +182,5 @@ if __name__ == "__main__":
     exploit(target, command=command)
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/25400303/1785810324798-95c27457-fb8c-4fd7-aabf-028c4d1da849.png?x-oss-process=image%2Fformat%2Cwebp)
+<img width="1197" height="264" alt="image" src="https://github.com/user-attachments/assets/6377a818-1a6b-4385-b17c-b554653be45d" />
+
